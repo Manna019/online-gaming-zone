@@ -63,6 +63,9 @@
         
     }    
 }
+.fun{
+    color: rgb(236, 19, 236);
+}
 .play{
     color: #0B0223;
     font-size: 30px;
@@ -117,4 +120,31 @@
         align-items: center;
         justify-content: center;
     }    
+}
+
+.game{
+    color: #0B0223;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+}
+.text1{
+    color: #534C64;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.image img{
+    width: 260px;
+}
+.text2{
+    color:  #534C64 ;
+    
+
 }
