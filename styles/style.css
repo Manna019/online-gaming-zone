@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../images/Group\ 14.png);
 }
 .text{
     font-size: 35px;
@@ -26,8 +27,16 @@
     width: 30px;
     height: 15px;
 }
+/* .flw{
+    display: flex; */
+
+.about1{
+    align-items: center;
+    justify-content: center;
+}
 .follow{
     height: 30px;
+    gap: 0px;
     align-items: center;
     justify-content: center;
 }
@@ -38,7 +47,7 @@
     gap: 15px;
     margin-right: 15px;
     list-style-type: none;
-    font-size: 20px ;
+    font-size: 15px ;
 }
 @media screen and (max-width: 576px) {
     .section{
@@ -222,3 +231,197 @@
         justify-content: center;
     }
 }
+
+/* button */
+.main-btn{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+.png11{
+    position: absolute;
+    width: 30px;
+}
+.btn11{
+    height: 25px;
+    margin-left: 50px;
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    
+}
+.btn99{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.btn99:hover{
+    border: 1px solid tomato;
+    border-radius: 10px;
+}
+.btn11:hover{
+    color:red;
+}
+
+@media screen and (max-width: 576px) {
+    .main-btn{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+   
+}
+
+@media screen and (min-width: 576px) and (max-width: 990px) {
+    .main-btn{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .btn11:hover{
+        color:blue;
+    }
+}
+
+footer{
+    background-image: url(../images/Group\ 14.png);
+    background-color: #0B0223;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+footer .gamer{
+    margin-top: 15px;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+footer .text{
+    font-size: 5rem ;
+}
+.paragraph{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    /* display: flex;
+    /* grid-template-columns: (6,1fr); */
+    /* grid-template-areas:
+    "Our Story Games Web Games Careers" "Support My Account" */
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    padding-top: 0px; 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.last-img{
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 35px;
+    height: 35px;
+    margin-left: 50px;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.last-img1{
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 35px;
+    height: 35px;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-right: 45px;
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+footer .last-para{
+    color: #575454;
+    text-align: center;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.gam{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 576px) {
+    .paragraph{
+        flex-direction: columns;
+        grid-template-columns: repeat(3, 1fr);
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+
+    }
+    .last-img1{
+        flex-direction: columns;
+        grid-template-columns: repeat(3, 1fr);
+        margin-right: 0px;
+        margin-left: 0px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    footer .last-para{
+        flex-direction: columns;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin-top: 60px;
+        padding-top: 60px;
+    }
+    .break-point::before {
+        content: "hiddentext";
+        font-size: 0;
+        display: block;
+        line-height: 0;
+        
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 990px) {
+    .paragraph{
+        flex-direction: columns;
+        grid-template-columns: repeat(2, 1fr);
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+
+    }
+    .last-img1{
+        flex-direction: columns;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    footer .last-para{
+        flex-direction: columns;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin-top: 60px;
+        padding-top: 60px;
+    }
+    .break-point::before {
+        content: "hiddentext";
+        font-size: 0;
+        display: block;
+        line-height: 0;
+        
+    }
+}
+
+
+
